@@ -13,6 +13,9 @@ imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
 
+strategy:
+  type: Recreate
+
 container:
   ports:
     mqtt:
