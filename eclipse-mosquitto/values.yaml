@@ -25,6 +25,7 @@ container:
 service:
   type: ClusterIP
   externalTrafficPolicy: ''
+  loadBalancerIP: ''
   annotations: {}
   ports:
     mqtt:
