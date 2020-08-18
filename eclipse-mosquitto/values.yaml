@@ -24,6 +24,7 @@ container:
 
 service:
   type: ClusterIP
+  externalTrafficPolicy: ''
   annotations: {}
   ports:
     mqtt:
